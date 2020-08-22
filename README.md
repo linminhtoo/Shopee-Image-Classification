@@ -1,6 +1,8 @@
 # Shope-Image-Classification
 Notebook detailing my approach to rank Top 2% out of ~900 teams during the Image Classification segment of the Shopee Code Leage 2020, achieving 83% top-1 accuracy. I used fast.ai using a pretrained EfficientNet-B4 with a variety of SOTA augmentation techniques and a couple of training tricks to push the accuracy. 
 
+I tried my best to explain the most important techniques I used. Still, some details are omitted for conciseness. I tried many things during the competition and learnt a lot. Feel free to reach out to me on <a href="https://www.linkedin.com/in/minhtoo/">LinkedIn</a> for a discussion, or perhaps to collaborate on an AI project! 
+
 Note: images do not load properly on GitHub. Please download and use an editor like Jupyter Notebook to view the .ipynb file. 
 
 ## References
