@@ -6,6 +6,9 @@ I tried my best to explain the most important techniques I used. Still, some det
 Note: images do not load properly on GitHub. Please download and use an editor like Jupyter Notebook to view the .ipynb file. 
 I also thank my teammate, Benjamin Chew, for kickstarting the initial fast.ai experiments and exposing me to the beauty of fast.ai!! 
 
+# Things I would have loved to try
+In the last few days, it was increasingly clear that it was important to classify the text-based images correctly. A human would recognise that a particular screenshot of an SMS was talking about XXX product (say a laptop), and hence, belonged in the laptops category. I had an idea of using an open-source OCR to extract text from such images, and use some form of simple NLP model with word embeddings to extract a feature vector. Concatenating this text-based feature with the image features should yield a nontrivial performance boost. 
+
 ## References
 1. https://github.com/fastai/fastai 
 9. https://github.com/oguiza/fastai_extensions
