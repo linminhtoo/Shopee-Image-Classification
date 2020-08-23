@@ -1,5 +1,5 @@
 # Shopee-Image-Classification
-Notebook detailing my approach to rank Top 2% out of ~900 teams during the Image Classification segment of the Shopee Code Leage 2020, achieving 83% top-1 accuracy. This was a challenging competition where we were given barely 2 weeks, plus the dataset had problems like many wrong labels, nonsense images and imbalanced classes. <b> This was my first Computer Vision competition, and I learnt fast.ai from scratch during this competition </b>. I used a pretrained EfficientNet-B4 with a variety of SOTA augmentation techniques and a couple of training tricks to push the accuracy. 
+Notebook detailing my approach to rank Top 2% out of ~900 teams during the Image Classification segment of the Shopee Code Leage 2020, achieving 83% top-1 accuracy. This was a challenging competition where we were given barely 2 weeks, plus the dataset had problems like many wrong labels, nonsense images and imbalanced classes. <b> This was my first Computer Vision competition, and I learnt fast.ai from scratch during this competition, so time was tight, but I am very happy with what I achieved </b>. I used a pretrained EfficientNet-B4 with a variety of SOTA augmentation techniques and a couple of training tricks to push the accuracy. 
 
 I tried my best to explain the most important techniques I used. Still, some details are omitted for conciseness. I tried many things during the competition and learnt a lot. Feel free to <a href="https://www.linkedin.com/in/minhtoo/">reach out to me on LinkedIn</a> for a discussion, or perhaps to collaborate on an AI project! 
 
@@ -7,9 +7,8 @@ I tried my best to explain the most important techniques I used. Still, some det
 I also thank my teammate, Benjamin Chew, for kickstarting the initial fast.ai experiments and exposing me to the beauty of fast.ai!! 
 
 ## Things I would have loved to try (also discussed within the notebook)
-- In the last few days, it was increasingly clear that it was important to classify the text-based images correctly. A human would recognise that a particular screenshot of an SMS was talking about XXX product (say a laptop), and hence, belonged in the laptops category. I had an idea of using an open-source OCR to extract text from such images, and use some form of simple NLP model with word embeddings to extract a feature vector. Concatenating this text-based feature with the image features should yield a nontrivial performance boost. Due to time constraints, I did not manage to try it out. After the challenge ended, I saw a Kaggle notebook showing this, so it will definitely be in my repertoire in future. 
+- In the last few days, it was increasingly clear that it was important to classify the text-based images correctly. A human would recognise that a particular screenshot of an SMS was talking about XXX product (say a laptop), and hence, belonged in the laptops category. I had an idea of using an open-source OCR to extract text from such images, and use some form of simple NLP model with word embeddings or even just MLP to extract a feature vector. Concatenating this text-based feature with the image features should yield a nontrivial performance boost. Due to time constraints, I did not manage to try it out. After the challenge ended, I saw a Kaggle notebook showing this, so it will definitely be in my repertoire in future. 
 - Kaggle TPUs (but needs tensorflow; fast.ai doesn't support TPUs out of the box)
-- 
 
 ## References
 1. https://github.com/fastai/fastai 
