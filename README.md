@@ -8,7 +8,7 @@ I also thank my teammate, Benjamin Chew, for kickstarting the initial fast.ai ex
 
 ## Things I would have loved to try (also discussed within the notebook)
 - In the last few days, it was increasingly clear that it was important to classify the text-based images correctly. A human would recognise that a particular screenshot of an SMS was talking about XXX product (say a laptop), and hence, belonged in the laptops category. I had an idea of using an open-source OCR to extract text from such images, and use some form of simple NLP model with word embeddings or even just MLP to extract a feature vector. Concatenating this text-based feature with the image features should yield a nontrivial performance boost. Due to time constraints, I did not manage to try it out. After the challenge ended, I saw a Kaggle notebook showing this, so it will definitely be in my repertoire in future. 
-- Kaggle TPUs (but needs tensorflow; fast.ai doesn't support TPUs out of the box)
+- Kaggle/Colab TPUs (but needs tensorflow; fast.ai doesn't support TPUs out of the box)
 - Ensembles. I tried taking simple average of predictions from my best ResNext model w/ the EffNet, but the public (and private) leaderboard scores were worse than EffNet's. I think it was mainly bcos the difference in accuracy was quite large (79-80% for ResNext, 83% for EffNet), or that their predictions were already quite correlated. A solution notebook I saw used B7 + B5 + B4 + B4 (different Computer Vision competition though) w/ experimentally derived ensembling weights. 
 
 ## References
