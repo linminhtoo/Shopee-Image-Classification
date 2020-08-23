@@ -6,8 +6,10 @@ I tried my best to explain the most important techniques I used. Still, some det
 <b>Note: images do not load properly on GitHub</b>. Please download and view the .ipynb file on Jupyter Notebook. 
 I also thank my teammate, Benjamin Chew, for kickstarting the initial fast.ai experiments and exposing me to the beauty of fast.ai!! 
 
-## Things I would have loved to try
-In the last few days, it was increasingly clear that it was important to classify the text-based images correctly. A human would recognise that a particular screenshot of an SMS was talking about XXX product (say a laptop), and hence, belonged in the laptops category. I had an idea of using an open-source OCR to extract text from such images, and use some form of simple NLP model with word embeddings to extract a feature vector. Concatenating this text-based feature with the image features should yield a nontrivial performance boost. 
+## Things I would have loved to try (also discussed within the notebook)
+- In the last few days, it was increasingly clear that it was important to classify the text-based images correctly. A human would recognise that a particular screenshot of an SMS was talking about XXX product (say a laptop), and hence, belonged in the laptops category. I had an idea of using an open-source OCR to extract text from such images, and use some form of simple NLP model with word embeddings to extract a feature vector. Concatenating this text-based feature with the image features should yield a nontrivial performance boost. Due to time constraints, I did not manage to try it out. After the challenge ended, I saw a Kaggle notebook showing this, so it will definitely be in my repertoire in future. 
+- Kaggle TPUs (but needs tensorflow; fast.ai doesn't support TPUs out of the box)
+- 
 
 ## References
 1. https://github.com/fastai/fastai 
